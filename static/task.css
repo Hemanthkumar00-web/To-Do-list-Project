@@ -1,0 +1,161 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding: 25px;
+    display:flex;
+    justify-content:space-between;
+    background-color: #0dd1f4;
+    margin-bottom: 10px;
+    font-size: 40px;
+    
+
+    
+    
+}
+
+.links>a{
+    text-decoration:none;
+}
+.links{
+    color: azure;
+    display: flex;
+    gap: 50px;
+}
+
+.tasks_page{
+    justify-content: center;
+    display: flex;
+    background-color: #b9f4ff;
+    
+    
+    
+    
+
+
+    
+}
+
+.task{
+    margin:15px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#loki{
+width: 70%;
+padding: 10px;
+box-shadow: black;
+border-radius: 8px;
+}
+#date{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: black;
+}
+
+#button{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: black;
+}
+
+#button{
+    background-color: rgb(84, 210, 219);
+
+}
+
+.page{
+    width: 70%;
+}
+
+
+
+
+.unique{
+display: flex;
+width: 70%;
+padding: 10px;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0fdff;
+    width: 71%;
+    box-shadow: 5px 5px 10px;
+}
+
+.action{
+    display: flex;
+    background-color: #0dd1f4;
+   justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    
+
+}
+
+.buttons{
+    display: flex;
+    padding-left: 15%;
+    gap: 13px;
+    
+}
+
+#task{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%  ;
+}
+
+
+
+#lock:hover{
+    background-color: #1605ff;
+    color: aliceblue;
+    cursor:pointer;
+
+}
+
+
+#delete{
+    background-color:rgb(255, 172, 172);
+    width: 80px;
+    border-radius:10px;
+}
+
+
+
+#mark{
+    border-radius: 10px;
+    background-color:aliceblue
+}
+
+
+
+
+.king{
+    display: flex;
+    justify-content: center;
+}
+
+
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+#range{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    
+}

@@ -1,0 +1,111 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(40, 161, 227);
+    
+    
+}
+
+.links>a{
+    text-decoration:none;
+}
+.links{
+
+    display: flex;
+    gap: 50px;
+}
+
+.page-content{
+    display: flex;
+    height: 97vh;
+    width: 100%;
+    background-color:rgb(255, 252, 252)
+}
+
+.image-content{
+    display: flex;
+min-height: 50%;
+min-width: 50%;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(0, 0, 0)
+}
+#naruto{
+    min-height: 97%;
+    min-width: 44%;
+}
+
+.form{
+    width:80%;
+    height: 50%;
+    background-color: rgba(234, 136, 51, 0.81);
+    
+    justify-content: center;
+    align-items: flex-start;
+    box-shadow: 10px 10px 30px white;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 10px;
+    
+}
+
+.form-inputs {
+    width: 80%;
+    padding: 10px;
+    outline: none;
+    font-size: 23px;
+}
+
+.form-inputs:focus {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.form-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: black;
+
+}
+
+
+
+#signup:hover{
+    background-color: beige;
+    cursor: pointer;   
+}
+
+
+#log:hover{
+     background-color: rgb(218, 7, 225);
+    cursor: pointer;   
+
+}
+
+#google:hover{
+     background-color:beige;
+    cursor: pointer;   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-conatiner{
+    display: flex;
+    flex-direction: column;
+}
+
+#for{
+    display: flex;
+    flex-direction: column;
+}
+
+

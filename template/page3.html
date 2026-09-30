@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasks</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'task.css' %}">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="links">
+            <b>Reminders</b>
+        </div>
+    </div>
+
+    <div class="tasks_page">
+        <div class="task">
+            <div class="page" action="" method="post">
+                {% csrf_token %}
+                <input id="loki" type="text" placeholder="Task name" name="task_name" required>
+                <input id="date" type="date" name="due_date" required>
+                <button id="button" type="submit">+ add task</button>
+            </div>
+        </div>
+    </div>
+    <div class="king">
+        <div class="action">
+            <label>ID</label>
+            <label>Task Name</label>
+            <label>Due Date</label>
+            <label>Action</label>
+        </div>
+    </div>
+    {% for task in tasks %}
+    <div class="head">
+        <div class="names">
+            <div id="task" class="id">
+                {{task.id}}
+            </div>
+            <div id="range" class="unique">
+                {{task.task_name}}
+                <div id="between" class="design">
+                    {{task.due_date}}
+                </div>
+            </div>
+            <div class="buttons">
+                {% if task.is_completed %}
+                <input type="checkbox"  onchange="mark_complete('{{task.id}}')">
+                {% else %}
+                <input type="checkbox"  onchange="mark_complete('{{task.id}}')" checked>
+                {% endif %}
+                <button type="submit" id="delete" onclick="is_delete('{{task.id}}')">Delete</button>
+            </div>
+        </div>
+       
+    </div>
+     {% endfor %}
+</body>
+<script src="{% static 'net.js' %}"></script>
+
+</html>

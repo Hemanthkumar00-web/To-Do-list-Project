@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'regi.css' %}">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="options">
+            <a href="#">Home</a>
+            <a href="#">Carrer</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <button id="btn" type="submit">login</button>
+    </div>
+    <div class="body-page">
+        <div class="image">
+            <img id="akaza"
+                src="https://th.bing.com/th/id/OIP.FM5V2ECSmLlM4fYMHkPrdAHaEK?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+
+        </div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="content-page">
+                <div class="page">
+                    <h1 id="thunder">Register</h1>
+                    <label>first name:</label>
+                    <input required type="text" placeholder="first name" name="first_name" class="form-inputs">
+                    <label>last name:</label>
+                    <input required type="text" placeholder="last name" name="last_name" class="form-inputs">
+                    <label>enter your email:</label>
+                    <input required type="emai" placeholder="enter your emai" name="email" class="form-inputs">
+                    <label>password:</label>
+                    <input required type="password" placeholder="enter your password" name="password"
+                        class="form-inputs">
+                    <label>conform password:</label>
+                    <input required type="password" placeholder="enter your password" class="form-inputs">
+                    <button id="click" type="submit">signup</button>
+                </div>  
+        </form>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

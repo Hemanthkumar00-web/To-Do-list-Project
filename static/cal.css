@@ -1,0 +1,101 @@
+#total{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#sub{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+
+}
+
+
+#button{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+#add{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+
+#mul{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+
+#gun{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+
+
+
+body{
+    background-color: rgb(0, 119, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+#ha{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 15px;
+    width: 95%;
+    border-radius: 10px;
+    
+
+}
+
+
+.unique{
+    background-color: rgb(198, 203, 213);
+    width: 30vw;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+
+#button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 10px;
+
+}
+
+#button:hover{
+    background-color: rgb(1, 10, 10);
+}
+
+
+
+
+
+#i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+

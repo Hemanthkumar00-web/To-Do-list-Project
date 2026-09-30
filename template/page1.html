@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <h1>application form</h1>
+        <form action="" method="post">
+            {% csrf_token %}
+            <input type="number" name="number" id="square" placeholder="enter your number">
+            <button type="submit">click</button>
+        </form>
+        <h1>the enter number is {{ nums }}</h1>
+        <ul>
+            {% for n in number %}
+              <li> {{ n }} </li>
+            {% endfor %}
+        </ul>
+
+</body>
+
+</html>

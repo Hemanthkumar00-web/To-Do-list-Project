@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'font.css' %}">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">contact us</a>
+            <a href="#">carrer</a>
+        </div>
+        <button id="log">login</button>
+    </div>
+    <div class="page-content">
+        <div class="image-content">
+            <img id="naruto"
+                src="https://th.bing.com/th/id/OIP.04BtJ6z0IhMay7fQIGX2zwHaEK?w=262&h=180&c=7&r=0&o=7&pid=1.7&rm=3">
+        </div>
+        <div class="form-conatiner">
+            <div id="for" class="form">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="input-field-container">
+                      
+                    <div class="input-field-container">
+                        <label>Enter your email:</label>
+                        <input required type="email" name="email" placeholder="enter your email" name="email" class="form-inputs">
+                    </div>
+                    <div class="input-field-container">
+                        <label>password:</label>
+                        <input required type="password" placeholder="password" name="password" class="form-inputs">
+                    </div>
+                    <button id="signup" type="submit">login</button>
+                    <label>OR</label>
+                    <button id="google">logout</button>
+                    {{error}}
+                </form>
+            </div>
+</body>
+
+</html>

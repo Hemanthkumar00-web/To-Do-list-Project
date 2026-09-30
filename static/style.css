@@ -1,0 +1,30 @@
+.form-page{
+    background-color: rgb(113, 232, 246);
+    font-size: 100px;
+
+}
+
+.form>a{
+    text-decoration: none;
+}
+
+.user{
+    display:flex;
+    flex-direction: column;
+
+}
+
+input{
+    width: 30vw;
+}
+
+.content-page{
+    background-color: rgb(195, 223, 213);
+    height: 100vh;
+}
+
+.address{
+    display:flex;
+    margin-top:1%;
+
+}

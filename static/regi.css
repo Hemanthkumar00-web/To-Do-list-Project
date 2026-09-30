@@ -1,0 +1,97 @@
+.navbar{
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(170, 235, 255);
+}
+
+.options{
+    display: flex;
+    gap: 50%;
+
+
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body-page{
+    display: flex;
+    height: 97vh;
+    width: 100%;
+    background-color: rgb(214, 124, 6);
+
+    
+}
+
+
+
+.content-page{
+    height: 100%;
+    width: 50vw;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 45%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(249, 249, 255);
+}
+
+
+.image{
+    height: 100vh;
+    width: 50vw;
+    background-color: antiquewhite;
+}
+
+
+
+.form-inputs{
+    width: 50%;
+    font-size:15px;
+    padding: 7px;
+}
+
+
+#akaza{
+     min-height: 97%;
+    min-width: 44%;
+}
+
+
+#click{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+#thunder{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+label{
+    color: azure;
+}
